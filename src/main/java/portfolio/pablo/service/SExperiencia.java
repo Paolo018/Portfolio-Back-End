@@ -24,8 +24,5 @@ public class SExperiencia {
     public void borrarExperiencia(int id) {
         expeRepo.deleteById(id);
     }
-    
-        public void editarExperiencia(Experiencia expe) {
-        expeRepo.save(expe);
-    } 
+
 }

@@ -4,9 +4,6 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.Temporal;
-import jakarta.persistence.TemporalType;
-import java.util.Date;
 
 @Entity
 public class Estudio {
@@ -18,18 +15,16 @@ public class Estudio {
     
     private String institucion;
     
-    @Temporal(TemporalType.DATE)
-    private Date inicio;
+    private String inicio;
     
-    @Temporal(TemporalType.DATE)
-    private Date fin;
+    private String fin;
     
     private String descripcion;
 
     public Estudio() {
     }
 
-    public Estudio(String titulo, String institucion, Date inicio, Date fin, String descripcion) {
+    public Estudio(String titulo, String institucion, String inicio, String fin, String descripcion) {
         this.titulo = titulo;
         this.institucion = institucion;
         this.inicio = inicio;
@@ -53,11 +48,11 @@ public class Estudio {
         return institucion;
     }
 
-    public Date getInicio() {
+    public String getInicio() {
         return inicio;
     }
 
-    public Date getFin() {
+    public String getFin() {
         return fin;
     }
 
@@ -73,11 +68,11 @@ public class Estudio {
         this.institucion = institucion;
     }
 
-    public void setInicio(Date inicio) {
+    public void setInicio(String inicio) {
         this.inicio = inicio;
     }
 
-    public void setFin(Date fin) {
+    public void setFin(String fin) {
         this.fin = fin;
     }
 

@@ -24,8 +24,5 @@ public class SEstudio {
     public void borrarEstudio(int id) {
         estuRepo.deleteById(id);
     }
-    
-        public void editarEstudio(Estudio estu) {
-        estuRepo.save(estu);
-    } 
+
 }

@@ -14,13 +14,16 @@ public class Habilidad {
     private String habilidad;
     
     private String porcentaje;
+    
+    private String clase;
 
     public Habilidad() {
     }
 
-    public Habilidad(String habilidad, String porcentaje) {
+    public Habilidad(String habilidad, String porcentaje, String clase) {
         this.habilidad = habilidad;
         this.porcentaje = porcentaje;
+        this.clase = clase;
     }
 
     public int getId() {
@@ -38,6 +41,10 @@ public class Habilidad {
     public String getPorcentaje() {
         return porcentaje;
     }
+    
+    public String getClase() {
+        return clase;
+    }
 
     public void setHabilidad(String habilidad) {
         this.habilidad = habilidad;
@@ -45,6 +52,10 @@ public class Habilidad {
 
     public void setPorcentaje(String porcentaje) {
         this.porcentaje = porcentaje;
+    }
+    
+    public void setClase(String clase) {
+        this.clase = clase;
     }
     
 }

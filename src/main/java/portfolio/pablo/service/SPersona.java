@@ -31,7 +31,4 @@ public class SPersona {
         persoRepo.deleteById(id);
     }
     
-        public void editarPersona(Persona perso) {
-        persoRepo.save(perso);
-    } 
 }
