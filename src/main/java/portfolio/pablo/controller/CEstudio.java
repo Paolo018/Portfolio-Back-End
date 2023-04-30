@@ -17,7 +17,7 @@ import portfolio.pablo.service.SEstudio;
 
 @RestController
 @RequestMapping("estudio") //localhost:8080/estudio
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://portfolio-frontend-pablo.web.app")
 public class CEstudio {
     
     @Autowired

@@ -16,7 +16,7 @@ import portfolio.pablo.service.SPersona;
 
 @RestController
 @RequestMapping("persona") //localhost:8080/persona
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://portfolio-frontend-pablo.web.app")
 public class CPersona {
     
     @Autowired
