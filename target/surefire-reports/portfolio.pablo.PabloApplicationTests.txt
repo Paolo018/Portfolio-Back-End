@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: portfolio.pablo.PabloApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 54.649 s - in portfolio.pablo.PabloApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 83.789 s - in portfolio.pablo.PabloApplicationTests
