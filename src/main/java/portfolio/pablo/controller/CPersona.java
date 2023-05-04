@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 import portfolio.pablo.entity.Persona;
+import portfolio.pablo.service.ISPersona;
 import portfolio.pablo.service.SPersona;
 
 @RestController
@@ -21,6 +22,9 @@ public class CPersona {
     
     @Autowired
     SPersona persoServ;
+    
+    @Autowired
+    ISPersona ipersoServ;
     
     @GetMapping("/lista")
     @ResponseBody
@@ -45,4 +49,10 @@ public class CPersona {
         persoServ.borrarPersona(id);
         return "La persona fue borrada correctamente";
     } 
+    
+    //login
+    @PostMapping("/auth/login")
+    public Persona loginPersona(@RequestBody Persona pers) {
+        return ipersoServ.loginPersona(pers.getEmail(), pers.getClave());
+    }
 }
