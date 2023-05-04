@@ -4,6 +4,7 @@ C:\Users\rocio\Documents\NetBeansProjects\pablo\src\main\java\portfolio\pablo\re
 C:\Users\rocio\Documents\NetBeansProjects\pablo\src\main\java\portfolio\pablo\security\service\UserDetailsImpl.java
 C:\Users\rocio\Documents\NetBeansProjects\pablo\src\main\java\portfolio\pablo\repository\RExperiencia.java
 C:\Users\rocio\Documents\NetBeansProjects\pablo\src\main\java\portfolio\pablo\security\repository\RolRepository.java
+C:\Users\rocio\Documents\NetBeansProjects\pablo\src\main\java\portfolio\pablo\security\MainSecurity.java
 C:\Users\rocio\Documents\NetBeansProjects\pablo\src\main\java\portfolio\pablo\security\entity\UsuarioPrincipal.java
 C:\Users\rocio\Documents\NetBeansProjects\pablo\src\main\java\portfolio\pablo\PabloApplication.java
 C:\Users\rocio\Documents\NetBeansProjects\pablo\src\main\java\portfolio\pablo\security\Dto\LoginUsuario.java
@@ -31,6 +32,7 @@ C:\Users\rocio\Documents\NetBeansProjects\pablo\src\main\java\portfolio\pablo\en
 C:\Users\rocio\Documents\NetBeansProjects\pablo\src\main\java\portfolio\pablo\controller\CPortafolio.java
 C:\Users\rocio\Documents\NetBeansProjects\pablo\src\main\java\portfolio\pablo\security\Dto\NuevoUsuario.java
 C:\Users\rocio\Documents\NetBeansProjects\pablo\src\main\java\portfolio\pablo\service\SPersona.java
+C:\Users\rocio\Documents\NetBeansProjects\pablo\src\main\java\portfolio\pablo\security\controller\AuthController.java
 C:\Users\rocio\Documents\NetBeansProjects\pablo\src\main\java\portfolio\pablo\security\entity\Usuario.java
 C:\Users\rocio\Documents\NetBeansProjects\pablo\src\main\java\portfolio\pablo\entity\Portafolio.java
 C:\Users\rocio\Documents\NetBeansProjects\pablo\src\main\java\portfolio\pablo\security\jwt\JwtProvider.java

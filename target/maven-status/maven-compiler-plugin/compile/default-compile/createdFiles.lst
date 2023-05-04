@@ -13,6 +13,7 @@ portfolio\pablo\service\SEstudio.class
 portfolio\pablo\security\Dto\JwtDto.class
 portfolio\pablo\entity\Habilidad.class
 portfolio\pablo\security\Dto\LoginUsuario.class
+portfolio\pablo\security\MainSecurity.class
 portfolio\pablo\security\enums\RolNombre.class
 portfolio\pablo\security\jwt\JwtEntryPoint.class
 portfolio\pablo\service\SHabilidad.class
@@ -26,6 +27,7 @@ portfolio\pablo\security\Dto\NuevoUsuario.class
 portfolio\pablo\security\repository\RolRepository.class
 portfolio\pablo\repository\RExperiencia.class
 portfolio\pablo\controller\CEstudio.class
+portfolio\pablo\security\controller\AuthController.class
 portfolio\pablo\entity\Estudio.class
 portfolio\pablo\security\jwt\JwtTokenFilter.class
 portfolio\pablo\service\SPersona.class
