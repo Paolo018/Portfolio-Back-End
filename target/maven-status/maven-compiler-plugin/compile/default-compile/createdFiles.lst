@@ -33,6 +33,7 @@ portfolio\pablo\security\jwt\JwtTokenFilter.class
 portfolio\pablo\service\SPersona.class
 portfolio\pablo\repository\RPortafolio.class
 portfolio\pablo\controller\CPortafolio.class
+portfolio\pablo\repository\IRPersona.class
 portfolio\pablo\security\controller\Mensaje.class
 portfolio\pablo\entity\Portafolio.class
 portfolio\pablo\security\entity\UsuarioPrincipal.class

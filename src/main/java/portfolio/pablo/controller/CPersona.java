@@ -45,4 +45,11 @@ public class CPersona {
         persoServ.borrarPersona(id);
         return "La persona fue borrada correctamente";
     } 
+    
+        //login
+    @PostMapping("/auth/login")
+    public Persona loginPersona(@RequestBody Persona pers) {
+        return persoServ.loginPersona(pers.getEmail(), pers.getClave());
+    }
+
   }

@@ -34,6 +34,7 @@ C:\Users\rocio\Documents\NetBeansProjects\pablo\src\main\java\portfolio\pablo\se
 C:\Users\rocio\Documents\NetBeansProjects\pablo\src\main\java\portfolio\pablo\service\SPersona.java
 C:\Users\rocio\Documents\NetBeansProjects\pablo\src\main\java\portfolio\pablo\security\controller\AuthController.java
 C:\Users\rocio\Documents\NetBeansProjects\pablo\src\main\java\portfolio\pablo\security\entity\Usuario.java
+C:\Users\rocio\Documents\NetBeansProjects\pablo\src\main\java\portfolio\pablo\repository\IRPersona.java
 C:\Users\rocio\Documents\NetBeansProjects\pablo\src\main\java\portfolio\pablo\entity\Portafolio.java
 C:\Users\rocio\Documents\NetBeansProjects\pablo\src\main\java\portfolio\pablo\security\jwt\JwtProvider.java
 C:\Users\rocio\Documents\NetBeansProjects\pablo\src\main\java\portfolio\pablo\controller\CExperiencia.java
