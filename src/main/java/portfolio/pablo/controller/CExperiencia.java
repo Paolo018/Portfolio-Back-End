@@ -16,7 +16,7 @@ import portfolio.pablo.service.SExperiencia;
 
 @RestController
 @RequestMapping("experiencia") //localhost:8080/experiencia
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://portfolio-frontend-pablo.web.app")
 public class CExperiencia {
     
     @Autowired

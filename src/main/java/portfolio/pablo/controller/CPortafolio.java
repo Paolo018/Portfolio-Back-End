@@ -16,7 +16,7 @@ import portfolio.pablo.service.SPortafolio;
 
 @RestController
 @RequestMapping("portafolio") //localhost:8080/proyecto
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://portfolio-frontend-pablo.web.app")
 public class CPortafolio {
     
     @Autowired

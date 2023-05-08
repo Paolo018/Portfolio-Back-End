@@ -16,7 +16,7 @@ import portfolio.pablo.service.SPersona;
 
 @RestController
 @RequestMapping("persona") //localhost:8080/persona
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://portfolio-frontend-pablo.web.app")
 public class CPersona {
     
     @Autowired
@@ -45,4 +45,11 @@ public class CPersona {
         persoServ.borrarPersona(id);
         return "La persona fue borrada correctamente";
     } 
-}
+    
+        //login
+    @PostMapping("/auth/login")
+    public Persona loginPersona(@RequestBody Persona pers) {
+        return persoServ.loginPersona(pers.getEmail(), pers.getClave());
+    }
+
+  }
