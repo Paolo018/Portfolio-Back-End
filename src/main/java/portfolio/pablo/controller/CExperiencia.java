@@ -18,7 +18,7 @@ import portfolio.pablo.service.SExperiencia;
 
 @RestController
 @RequestMapping("experiencia") //localhost:8080/experiencia
-@CrossOrigin(origins = "localhost:4200")
+@CrossOrigin(origins = "https://portfolio-back-end-wiyc.onrender.com")
 public class CExperiencia {
     
     @Autowired

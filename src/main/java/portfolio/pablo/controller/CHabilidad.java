@@ -18,7 +18,7 @@ import portfolio.pablo.service.SHabilidad;
 
 @RestController
 @RequestMapping("habilidad") //localhost:8080/habilidad
-@CrossOrigin(origins = "localhost:4200")
+@CrossOrigin(origins = "https://portfolio-back-end-wiyc.onrender.com")
 public class CHabilidad {
     
     @Autowired
