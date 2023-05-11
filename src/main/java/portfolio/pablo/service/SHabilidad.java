@@ -30,5 +30,9 @@ public class SHabilidad {
     public void borrarHabilidad(int id) {
         habiRepo.deleteById(id);
     }
+    
+        public void editarHabilidad(Habilidad habi) {
+        habiRepo.save(habi);
+    }
 
 }

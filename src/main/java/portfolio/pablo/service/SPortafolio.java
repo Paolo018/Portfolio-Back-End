@@ -31,4 +31,7 @@ public class SPortafolio {
         proyeRepo.deleteById(id);
     }
 
+        public void editarProyecto(Portafolio proye) {
+        proyeRepo.save(proye);
+    }
 }
